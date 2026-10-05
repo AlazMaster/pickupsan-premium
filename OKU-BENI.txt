@@ -1,0 +1,23 @@
+PICKUPSAN PREMIUM — TASARIM KONSEPTİ
+====================================
+
+Açmak için: index.html dosyasına çift tıklayın. İnternet gerekmez.
+
+TARZ: Lüks otomotiv (koyu, sinematik, az ve öz).
+- Açılış: büyük ince başlık üstte, araç fotoğrafı altta; yazı kabinin üstüne gelmez.
+- Koleksiyon: 3 seri sahnede sırayla döner (oklar, sekmeler veya telefonda kaydırma).
+- Sinematik bant, detaylar, galeri (fotoğrafa tıklayınca büyür), uyumlu araçlar
+  (tıklayınca WhatsApp'a hazır mesaj) ve iletişim.
+- Sol üstteki "Menü" tam ekran menü açar.
+
+SERİ BİLGİLERİNİ DEĞİŞTİRMEK: js/main.js dosyasının en üstündeki SERIES listesi.
+YENİ GALERİ FOTOĞRAFI: images/galeri/ içine koyun; index.html'de
+  "YENİ FOTOĞRAF" yazan yerin altındaki <a> satırlarından birini kopyalayın.
+RENKLER: css/style.css dosyasının en üstündeki :root bölümü.
+
+MODEL GALERİLERİ (Uyumlu araçlar listesi)
+- Listede bir modele tıklayınca o aracın fotoğrafları tam ekran açılır.
+- Fotoğraflar: images/modeller/<model>/01.webp (büyük) ve 01-k.webp (küçük).
+- Sayılar js/modeller.js dosyasında. Yeni fotoğraf eklerken sıradaki numarayla
+  iki dosyayı koyun (ör. 25.webp ve 25-k.webp) ve sayıyı bir artırın.
+- Doğrudan bağlantı: index.html#toyota-hilux gibi.
